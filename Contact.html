@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us</title>
+<style>
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh; /* Ensure container fills at least the viewport height */
+    box-sizing: border-box; /* Include padding in height calculation */
+  }
+
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  /* Navigation styles */
+  nav {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  /* Main content styles */
+  .main-content {
+    text-align: center;
+  }
+
+  .main-content h2 {
+    margin-bottom: 20px;
+  }
+
+  /* Contact form styles */
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  .contact-form textarea {
+    height: 150px;
+  }
+
+  .contact-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .contact-form input[type="submit"]:hover {
+    background-color: #555;
+  }
+
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+
+  footer p {
+    margin: 0;
+  }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Contact Us</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="map.html">Map</a>
+		<a href="History.html">History</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section class="main-content">
+        <div class="contact-form">
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required><br>
+                <input type="email" name="email" placeholder="Your Email" required><br>
+                <textarea name="message" placeholder="Your Message" required></textarea><br>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Cebu City Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
